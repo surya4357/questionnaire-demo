@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import DemoComponent from './DemoComponent';
+import DemoComponent from './Components/DemoComponent';
 
-import '../styles/styles.scss';
+import './styles.scss';
 import 'bootstrap-sass/assets/stylesheets/_bootstrap.scss';
 
 
