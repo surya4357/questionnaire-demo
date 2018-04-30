@@ -1,4 +1,19 @@
-#react-container {
+#app {
+  h1 {
+    color: green;
+  }
   display:flex;
   justify-content: center;
+
+  .container {
+    width: 1000px;
+    padding: 20px;
+  }
+
+  .page-footer {
+    display: flex;
+    .prev-button-wrapper {
+      flex: 1;
+    }
+  }
 }

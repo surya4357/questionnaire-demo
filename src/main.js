@@ -1,10 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
-import DemoComponent from './Components/DemoComponent';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import Form from './Components/Form';
 
 import './styles.scss';
-import 'bootstrap-sass/assets/stylesheets/_bootstrap.scss';
 
+const App = () => (
+  <div>
+    <MuiThemeProvider>
+      <Form />
+    </MuiThemeProvider>
+  </div>
+);
 
-ReactDOM.render(<DemoComponent/>, document.getElementById('react-container'));
+ReactDOM.render(
+  <App />,
+  document.getElementById('app')
+);
